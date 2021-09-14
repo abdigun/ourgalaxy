@@ -1,7 +1,10 @@
 //
 
 //
-import "gsap";
+import { gsap } from "gsap";
+import { CSSPlugin } from "gsap/CSSPlugin";
+gsap.registerPlugin(CSSPlugin);
+
 const NavSoc = require("./nav");
 const Socdata = require("../extra/socdata");
 const Navlogo = require("./navlogo");
