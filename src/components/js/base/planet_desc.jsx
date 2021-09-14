@@ -7,7 +7,8 @@ const { render } = require("react-dom");
 const BtnBack = require("./btnbacktest");
 import { TimelineMax } from "gsap";
 import { TweenMax } from "gsap";
-const { gsap } = require("gsap/dist/gsap");
+//const { gsap } = require("gsap/dist/gsap");
+import { gsap } from "gsap";
 
 function PlanetDesc() {
 	const [planetdescript, setplanet] = useState([]);

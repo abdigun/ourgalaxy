@@ -1,3 +1,4 @@
+import { gsap } from "gsap";
 import { TimelineMax } from "gsap";
 import { TweenMax } from "gsap";
 

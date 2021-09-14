@@ -1,3 +1,4 @@
+import { gsap } from "gsap";
 import ReactDOM from "react-dom";
 const NavSoc = require("../base/nav");
 
