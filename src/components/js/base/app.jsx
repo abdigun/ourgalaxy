@@ -1,7 +1,7 @@
 //
 
 //
-
+import "gsap";
 const NavSoc = require("./nav");
 const Socdata = require("../extra/socdata");
 const Navlogo = require("./navlogo");
