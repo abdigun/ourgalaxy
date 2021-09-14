@@ -1,0 +1,56 @@
+/* import font awesome */
+@import "../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "./font.css";
+
+/* nav	*/
+
+.navlogo {
+	font-family: "AbrilFatface";
+}
+
+.navbar-cont-pos {
+	width: 100%;
+	max-height: 50px;
+	height: 40px;
+	position: absolute;
+	z-index: 10;
+}
+
+.navbar-cont {
+	display: flex;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+
+/* logo  */
+
+.navlogo-cont {
+	margin: auto 0;
+}
+
+.navlogo {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+/* social media */
+
+.cont-main-soc {
+	display: flex;
+	margin: auto 0 auto auto;
+	width: 20%;
+}
+
+.cont-sub-soc {
+	width: 20%;
+	margin: auto;
+	display: flex;
+}
+
+.icon-link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem;
+	margin: auto;
+}

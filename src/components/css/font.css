@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "roboto";
+	font-weight: 400;
+	src: url("../font/Roboto/Roboto-regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "playfair";
+	font-weight: 400;
+	src: url("../font/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: "AbrilFatface";
+	font-weight: 400;
+	src: url("../font/Abril_Fatface/AbrilFatface-Regular.ttf")
+		format("truetype");
+}

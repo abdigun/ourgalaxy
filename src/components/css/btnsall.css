@@ -1,0 +1,58 @@
+/* all buttons for clickto planet description */
+
+.btnsgalaxycont {
+	position: relative;
+	width: 100%;
+	height: 5%;
+	display: flex;
+	color: #fff;
+}
+
+.cont-for-all-btn-main {
+	height: 100%;
+	width: 60%;
+	margin: auto;
+}
+
+.cont-for-all-btn {
+	display: flex;
+	font-family: monospace;
+	height: 100%;
+	width: 100%;
+}
+
+.cont-for-all-btn > div {
+	position: relative;
+	width: 10%;
+	height: 100%;
+	display: flex;
+	margin: auto;
+}
+
+.btntexteachplanet {
+	text-align: center;
+	margin: auto;
+	font-size: 1.3rem;
+	cursor: default;
+	width: 100%;
+}
+
+.btntexteachplanet:hover {
+	color: #fff;
+	opacity: 0.3;
+}
+
+/* container for planet  */
+
+.mercuryclass,
+.sunclass,
+.earthclass,
+.marsclass,
+.saturnclass,
+.neptuneclass,
+.uranusclass,
+.venusclass,
+.jupiterclass {
+	display: none;
+	opacity: 0;
+}
